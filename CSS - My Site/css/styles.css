@@ -1,0 +1,134 @@
+body {
+    /*Margin 0 hace que no haya como un espacio entre los objetos*/
+    margin: 0;
+    /*Esto hace que todo este en el centro (mas no el div) o si no, que se centre todo lo que este adentro de los divs*/
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+}
+h1 {
+    font-size: 600%;
+    /*la web le da un espacio base asi que esto se lo quita*/
+    margin: 50px auto 0 auto;
+    padding-top: 70px;
+    /*Para que el texto no ocupe todo el lugar*/
+    width: 40%;
+    /*margin: 0 auto 0 auto; es para cuando quieres centrar un texto que no ocupe todo osea que aqui en este caso solo tiene un width del 10%*/
+    margin: 0 auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+    
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+p {
+    line-height: 2;
+}
+hr {
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4.5%;
+    margin: 100px auto;
+}
+a {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+a:hover {
+    color: #EAF6F6;
+}
+.TopContainer {
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+}
+.pro {
+    text-decoration: underline;
+}
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+.middle-container {
+    margin: 100px 0;
+}
+.top-cloud {
+    position: absolute;
+    right: 400px;
+    top: 50px;
+}
+.profile-img {
+    width: 350px;
+    height: 320px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.golf-photo {
+    width: 30%;
+    /*Esto es para poner el texto a la derecha de la imagen*/
+    float: left;
+    margin-right: 30px;
+}
+.biology-photo {
+    width: 30%;
+    float: right;
+    margin-left: 30px;
+}
+.profile-info {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.contact {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+.btn {
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+}
+.copyright {
+    color: #EAF6F6;
+    font-size: 0.9rem;
+    padding: 20px 0;
+}
